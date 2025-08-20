@@ -22,7 +22,7 @@ function QuoteCard({ quoteText, characterName, isQuoteEpic }) {
     return (
         <blockquote style={quoteStyle}>
             "{quoteText}"
-            <footer style={props.characterStyle}>
+            <footer style={characterStyle}>
                 - {characterName}
                 {isQuoteEpic && <span style={{ marginLeft: '10px' }}>🌟</span>}
             </footer>
