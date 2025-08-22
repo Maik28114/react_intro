@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutPage() {
     return (
-        <div className="about-page-content" style={{ padding: '20px', textAlign: 'center', color: '#3b3838ff' }}>
+        <div className="about-page-content" style={{ padding: '20px', textAlign: 'center', color: '#bfb9b9ff' }}>
             <h2 style={{color: '#DAA520'}}>Über den Game of Thrones Zitat-Generator</h2>
             <p>Diese kleine Anwendung wurde als Teil eines React-Lernkurses erstellt, um die Grundlagen von React-Komponenten, Zustand, Effekten und Routing zu demonstrieren.</p>
             <p>Zitate stammen aus der beliebten HBO-Serie "Game of Thrones".</p>
